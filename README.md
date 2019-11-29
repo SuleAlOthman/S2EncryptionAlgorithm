@@ -5,13 +5,13 @@ S2 Encrypton Algorithm for text in php, swift and java
 
 ###### PHP
 
+tested on php 7
+
 ```
 $text = 'Any text ..';
 $enc = S2Encrypt($text, 'password');
 $dec = S2Decrypt($enc, 'password');
 ```
-
-tested on php 7
 
 ###### Swift
 
